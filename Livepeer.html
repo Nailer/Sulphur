@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./hack.css">
+</head>
+<body>
+    <div>
+        <button>activate livepeer api</button>
+        <input type="file" id="fileInput" >
+        <video-js id="livepeer-sample-videojs-player" width=960 height=540 class="vjs-default-skin" controls>
+            <source src="https://livepeercdn.studio/hls/f6130t68vle8mmn0/index.m3u8" type="application/x-mpegURL">
+        </video-js>
+    </div>
+    <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
+    <script src="https://unpkg.com/@videojs/http-streaming@2.14.2/dist/videojs-http-streaming.min.js"></script>
+    <script src="./stream.js"></script>
+</body>
+</html>
