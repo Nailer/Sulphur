@@ -140,6 +140,10 @@ nav .sideMenuButton {
     width: 200px;
     padding: 12px 20px;
     border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
     border-style: none;
     color: black;
     font-size: 17px;
