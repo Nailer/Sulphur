@@ -151,6 +151,11 @@ a {
     color: black;
 }
 
+a > img {
+    width: 92px;
+    margin-right: 25px;
+}
+
 /* Header content responsive */
 @media screen and (max-width: 980px) {
     .side2 img {
