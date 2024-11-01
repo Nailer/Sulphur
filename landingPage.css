@@ -335,6 +335,14 @@ footer .footer span a:hover {
     text-decoration: underline;
 }
 
+.get-started {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(115, 59, 59);
+    color: whitesmoke;
+}
+
 @media screen and (max-width: 1060px) {
     .contactMenu {
         flex-direction: column;
