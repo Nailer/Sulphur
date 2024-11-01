@@ -1,5 +1,5 @@
 
-# *PROBLEMS SULPHUR IDENTIFIES
+# * PROBLEMS SULPHUR IDENTIFIES
 1. Complexity of In-Chain Programming Languages and Frameworks
 Blockchain development has unique constraints that set it apart from traditional software development. Unlike more mature ecosystems, where resources, tutorials, and libraries are widely available, blockchain technologies are still evolving, with frequent introductions of new protocols, consensus mechanisms, and cryptographic principles. For example, languages like Solidity for Ethereum, Rust for Solana, and Move for Aptos and Sui bring different syntaxes, paradigms, and intricacies. Each language typically has a tailored programming environment, requiring developers to understand new constructs specific to that chain. This learning curve is intensified by the fact that these languages often lack mature debugging tools and detailed error documentation, unlike widely used languages such as JavaScript or Python.
 
