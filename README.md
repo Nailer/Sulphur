@@ -52,18 +52,19 @@ Sulphur’s combination of real-time debugging, recorded sessions, and searchabl
 With Sulphur’s robust, tech-driven approach, blockchain developers can overcome debugging obstacles far more efficiently, reducing the learning curve associated with new blockchain ecosystems and in-chain languages. Sulphur's live sessions, coupled with persistent, accessible documentation and a focus on community knowledge sharing, aim to streamline the debugging process across all levels of experience in blockchain development.
 
 
-# HOW SULPHUR SOFTWARE WORKS
+# * HOW SULPHUR SOFTWARE WORKS
+
 ## User Registration and Role Assignment
 Users start by registering on the platform, where they select a specific role: “Creator” or “Developer.” Creators have full access to session creation, uploading, and viewership options for past debugging sessions, while developers mainly focus on engaging in and watching debugging content. This distinction is essential for tailoring the experience and allowing each user type to access only the necessary tools and content relevant to their goals.
 
-2. Landing Page and Dashboard Navigation
+## Landing Page and Dashboard Navigation
 Once users are registered and their roles are defined, they enter a personalized landing page. This page provides a brief project overview and contains navigational options directing users to the creator or developer sections based on their roles. For developers, this section will include the tools and resources needed to locate, request, or watch debugging sessions. Creators, on the other hand, can access tools for setting up and streaming live debugging sessions, uploading previous sessions, and managing content for future reference.
 
-3. Setting Up for Live Streaming (Creators Only)
+## Setting Up for Live Streaming (Creators Only)
 Creators looking to conduct live debugging sessions have a few prerequisites:
 
-OBS Setup: OBS (Open Broadcaster Software) is required for streaming sessions. OBS is a powerful, open-source tool that enables high-quality live streaming and video recording with minimal setup, giving creators control over stream quality and interface customization. Creators must download and configure OBS on their local machines to ensure a seamless connection for live debugging.
-Livepeer API Configuration: The platform leverages Livepeer’s API for video transcoding, which handles live video streaming, converts the session recordings into multiple resolutions, and formats them for replay. This API ensures compatibility across devices, allowing viewers to watch the sessions in a quality that fits their bandwidth. The configuration of Livepeer requires creating an account and generating an API key, which is then linked within the platform to facilitate real-time streaming and recording.
+* OBS Setup: OBS (Open Broadcaster Software) is required for streaming sessions. OBS is a powerful, open-source tool that enables high-quality live streaming and video recording with minimal setup, giving creators control over stream quality and interface customization. Creators must download and configure OBS on their local machines to ensure a seamless connection for live debugging.
+* Livepeer API Configuration: The platform leverages Livepeer’s API for video transcoding, which handles live video streaming, converts the session recordings into multiple resolutions, and formats them for replay. This API ensures compatibility across devices, allowing viewers to watch the sessions in a quality that fits their bandwidth. The configuration of Livepeer requires creating an account and generating an API key, which is then linked within the platform to facilitate real-time streaming and recording.
 4. Streaming and Session Management
 Once configured, creators can start a debugging session that streams live to the platform. This session can be accessed by developers who might need assistance with similar issues in Web3 development, allowing them to watch and learn in real time. During the live stream, developers can engage through live chat, which fosters an interactive learning environment. This chat allows viewers to ask questions, share insights, or request additional clarification from the creator, making the debugging process collaborative and dynamic.
 
