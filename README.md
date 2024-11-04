@@ -52,3 +52,33 @@ Sulphur’s combination of real-time debugging, recorded sessions, and searchabl
 With Sulphur’s robust, tech-driven approach, blockchain developers can overcome debugging obstacles far more efficiently, reducing the learning curve associated with new blockchain ecosystems and in-chain languages. Sulphur's live sessions, coupled with persistent, accessible documentation and a focus on community knowledge sharing, aim to streamline the debugging process across all levels of experience in blockchain development.
 
 
+# HOW SULPHUR SOFTWARE WORKS
+## User Registration and Role Assignment
+Users start by registering on the platform, where they select a specific role: “Creator” or “Developer.” Creators have full access to session creation, uploading, and viewership options for past debugging sessions, while developers mainly focus on engaging in and watching debugging content. This distinction is essential for tailoring the experience and allowing each user type to access only the necessary tools and content relevant to their goals.
+
+2. Landing Page and Dashboard Navigation
+Once users are registered and their roles are defined, they enter a personalized landing page. This page provides a brief project overview and contains navigational options directing users to the creator or developer sections based on their roles. For developers, this section will include the tools and resources needed to locate, request, or watch debugging sessions. Creators, on the other hand, can access tools for setting up and streaming live debugging sessions, uploading previous sessions, and managing content for future reference.
+
+3. Setting Up for Live Streaming (Creators Only)
+Creators looking to conduct live debugging sessions have a few prerequisites:
+
+OBS Setup: OBS (Open Broadcaster Software) is required for streaming sessions. OBS is a powerful, open-source tool that enables high-quality live streaming and video recording with minimal setup, giving creators control over stream quality and interface customization. Creators must download and configure OBS on their local machines to ensure a seamless connection for live debugging.
+Livepeer API Configuration: The platform leverages Livepeer’s API for video transcoding, which handles live video streaming, converts the session recordings into multiple resolutions, and formats them for replay. This API ensures compatibility across devices, allowing viewers to watch the sessions in a quality that fits their bandwidth. The configuration of Livepeer requires creating an account and generating an API key, which is then linked within the platform to facilitate real-time streaming and recording.
+4. Streaming and Session Management
+Once configured, creators can start a debugging session that streams live to the platform. This session can be accessed by developers who might need assistance with similar issues in Web3 development, allowing them to watch and learn in real time. During the live stream, developers can engage through live chat, which fosters an interactive learning environment. This chat allows viewers to ask questions, share insights, or request additional clarification from the creator, making the debugging process collaborative and dynamic.
+
+OBS acts as the bridge between the creator’s local environment and the Sulphur platform, sending the live stream data to the Livepeer API for distribution. Creators can also manage the session, pausing or stopping the stream if necessary, and ensuring the session’s quality remains consistent. Every stream is automatically recorded and saved for later viewing, building a library of debugging resources that future developers can reference.
+
+5. Recording and Knowledge Retention
+Each live debugging session is recorded and stored, creating a library of sessions accessible by all developers on the platform. These recordings are invaluable, as they build a cumulative resource of debugging experiences, problem-solving strategies, and development insights. For example, if a developer encounters a similar bug or issue in the future, they can simply search the platform’s repository, find a related debugging session, and learn from the recorded process instead of starting a live session.
+
+Recordings include tags, descriptions, and metadata to make searching efficient. Sessions can be organized by blockchain platform, programming language, error type, or even specific debugging techniques, allowing developers to quickly locate relevant content. This systematic organization of sessions not only improves knowledge retention but also reduces the likelihood of redundant live debugging requests for similar issues.
+
+6. Planned Future Integrations
+Sulphur’s development roadmap includes additional features aimed at improving the debugging process even further. Some planned updates are:
+
+Automated Transcription and Search: Using AI-powered transcription services, future updates could allow recorded sessions to be transcribed and indexed, making it easier for developers to search for specific phrases or concepts discussed in previous sessions.
+Integrated Debugging Tools: Enhancements to include in-app debugging tools that work alongside live streams, such as syntax highlighters or collaborative code editors, allowing creators to demonstrate code changes live.
+Community-Driven Content Curation: Planned features include a rating system for sessions, enabling developers to upvote sessions that provided valuable solutions. This user feedback loop would improve the content’s relevance and provide better access to the most helpful debugging sessions.
+
+
